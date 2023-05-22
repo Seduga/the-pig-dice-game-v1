@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+     
+  </head>
+  <body>
+    <div><h1>The Pig Dice Game</h1></div>
+
+    <div id="rule_block">
+      <h1>Rules</h1>
+      <p>
+        The game of Pig is a very simple jeopardy dice game in which two players
+        race to reach 100 points. Each turn, a player repeatedly rolls a die
+        until either a 1 is rolled or the player holds and scores the sum of the
+        rolls (i.e. the turn total). At any time during a player's turn, the
+        player is faced with two decisions:
+      </p>
+      <ul id="rules">
+        <li>
+          roll - If the player rolls a
+          <ul>
+            <li>
+              1: the player scores nothing and it becomes the opponent's turn.
+            </li>
+            <li>
+              2 - 6: the number is added to the player's turn total and the
+              player's turn continues.
+            </li>
+          </ul>
+        </li>
+        <li>
+          hold - The turn total is added to the player's score and it becomes
+          the opponent's turn.
+        </li>
+      </ul>
+    </div>
+    <div id="game_block">
+
+      <p id="winMessagefor1player">Player 1 win!</p>
+      <p id="winMessagefor2player">Player 2 win!</p>
+      <button id="startbtn">Start the game</button>
+
+      <button id="quitbtn">Stop the game</button>
+
+      <label id="firstPlayer">1 player score :</label>
+
+      
+
+      <label id="secondPlayer">2 player score :</label>
+
+      <label id="total2player"></label>
+
+      <button id="rollbtn">Roll</button>
+
+      <button id="holdbtn">Hold</button>
+      <div id="dice_block">
+        <li  class="dice_pic">
+          <img src="imgs/1 (2).png" alt="" />
+        </li>
+        <li class="dice_pic">
+          <img  src="imgs/2.png" alt="" />
+        </li>
+        <li class="dice_pic">
+        <img  src="imgs/3.png" alt="" />
+      </li>
+        <li class="dice_pic">
+          <img  src="imgs/4.png" alt="" />
+        </li>
+        <li class="dice_pic">
+        <img  src="imgs/5.png" alt="" />
+      </li>
+        <li class="dice_pic">
+          <img  src="imgs/6.png" alt="" />
+        </li>
+      </div>
+
+      <div id="scorebox"></div>
+      <img id="logo" src="imgs/logo.jpg" alt="logo" />
+    </div>
+  </body>
+</html>
+

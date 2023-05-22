@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(218, 221, 216);
+}
+
+div:first-of-type {
+    text-align: center;
+    background-color: rgb(182, 233, 219);
+  }
+  #logo {
+    float: right;
+    height: 200px;
+  }
+  #winMessagefor1player{
+    position: absolute;
+    font-size: 30px;
+    top: 200px;
+    left: 200px;
+    display: none;
+  }
+  #winMessagefor2player{
+    position: absolute;
+    font-size: 30px;
+    top: 200px;
+    left: 200px;
+    display: none;
+  }
+
+  #rule_block {
+    position: absolute;
+    top: 160px;
+    height: 500px;
+    width: 400px;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  #dice_block {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 230px;
+    left: 235px;
+    background: local;
+  }
+  .dice_pic {
+    left: 0;
+    position: absolute;
+    display: none;
+  }
+  li > img{
+    height: 100px;
+  }
+
+  #rules {
+    text-align: left;
+  }
+  #game_block {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+    background-color: rgb(184, 215, 229);
+    list-style-type: none;
+  }
+  #startbtn {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    height: 40px;
+    width: 70px;
+  }
+  #quitbtn {
+    position: absolute;
+    display: none;
+    top: 400px;
+    left: 250px;
+    height: 40px;
+    width: 70px;
+  }
+  #firstPlayer {
+    position: absolute;
+    color: red;
+    left: 50px;
+    top: 50px;
+    font-size: 22px;
+    display: none;
+  }
+  #secondPlayer {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 22px;
+    display: none;
+  }
+  #rollbtn {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    top: 400px;
+    left: 400px;
+    display: none;
+  }
+  #holdbtn {
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    height: 40px;
+    width: 70px;
+    display: none;
+  }
+  #scorebox {
+    position: absolute;
+    background: local;
+    top: 340px;
+    left: 265px;
+    height: 40px;
+    width: 40px;
+    font-size: 26px;
+    text-align: center;
+  }
+  #total1player {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    font-size: 26px;
+  
+  }
+  #total2player {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    font-size: 26px;
+  }
